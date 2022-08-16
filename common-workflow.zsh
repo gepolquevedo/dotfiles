@@ -20,7 +20,6 @@ export PATH=${PATH}:/usr/local/go/bin
 # add SSH keys
 eval $(ssh-agent -s) > /dev/null
 ssh-add ~/.ssh/id_ed25519 > /dev/null 2>&1
-ssh-add ~/.ssh/*_id_rsa > /dev/null 2>&1
 
 # direnv hook
 eval "$(direnv hook zsh)"
