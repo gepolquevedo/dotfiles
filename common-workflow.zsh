@@ -49,10 +49,6 @@ alias vf="vim ."
 alias downloads="cd ~/Downloads"
 alias kcc="kubectl config current-context"
 
-# source completion and key-bindings for fzf
-source /usr/share/fzf/completion.zsh
-source /usr/share/fzf/key-bindings.zsh
-
 # add krew to PATH
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
