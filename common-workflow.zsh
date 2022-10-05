@@ -40,6 +40,7 @@ export PATH=$PATH:$(go env GOPATH)/bin
 export EDITOR=/usr/bin/vim
 
 # activate tmux plugins
+# TODO: migrate this to zprofile or zlogin
 # tmux source ~/.tmux.conf
 
 # general purpose aliases
