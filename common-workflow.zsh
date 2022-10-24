@@ -27,6 +27,9 @@ eval "$(direnv hook zsh)"
 # allow pass to provide the ssh passphrase
 export ASK_SSHPASS="/usr/bin/pass show pphrase"
 
+# set GPG_TTY to allow passphrase input
+export GPG_TTY=$TTY
+
 #DISABLED:  start syncthing
 # pgrep syncthing > /dev/null 2>&1
 # if [ $? -ne 0 ]; then
