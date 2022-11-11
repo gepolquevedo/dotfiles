@@ -51,6 +51,11 @@ set autochdir
 let &t_SI = "\e[5 q"
 let &t_EI = "\e[2 q"
 
+" allow for persistent undo folder
+if has ('persistent_undo')
+  set undodir=$HOME/.vim/undo
+  set undofile
+endif
 
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
