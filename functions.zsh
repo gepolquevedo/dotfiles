@@ -45,7 +45,6 @@ asar () {
     export AWS_SESSION_TOKEN=\(.SessionToken\)'
 }
 
-#TODO
 #Find ip address of EC2 instance given instance name using fzf, and SSH into it
 ceb () {
   aws ec2 describe-instances | jq -r '.Reservations[].Instances[] | "\(.Tags[] | select(.Key|test("Name")) | .Value) \(.PrivateIpAddress)" ' | fzf | awk '{print $2}' | xargs -o -I{} ssh gquevedo@{}
