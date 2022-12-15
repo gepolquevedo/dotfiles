@@ -14,12 +14,15 @@ set nu rnu
 
 filetype indent on
 
+" highlight chars while typing for search
 set incsearch
+
+" highlight search matches
 set hlsearch
 
-" Show tabs as special characters
-" Show trailing spaces as dots
+" show tabs and trailing spaces as special chars for easier editing
 set listchars=tab:>.,nbsp:_,trail:.
+
 set list
 
 " allow buffer switch with pending changes
