@@ -17,6 +17,8 @@ filetype indent on
 set incsearch
 set hlsearch
 
+" Show tabs as special characters
+" Show trailing spaces as dots
 set listchars=tab:>.,nbsp:_,trail:.
 set list
 
