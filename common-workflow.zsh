@@ -49,9 +49,11 @@ export EDITOR=/usr/bin/vim
 # general purpose aliases
 alias grbm="git fetch origin && git rebase origin/master"
 alias glo="git log --oneline"
+alias v="vim"
 alias vf="vim ."
 alias downloads="cd ~/Downloads"
 alias kcc="kubectl config current-context"
+alias b="bat"
 
 # add krew to PATH
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
