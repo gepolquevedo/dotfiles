@@ -49,6 +49,7 @@ export EDITOR=/usr/bin/vim
 # general purpose aliases
 alias grbm="git fetch origin && git rebase origin/master"
 alias glo="git log --oneline"
+alias gcm="git checkout master"
 alias v="vim"
 alias vf="vim ."
 alias downloads="cd ~/Downloads"
