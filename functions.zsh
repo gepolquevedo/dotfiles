@@ -77,6 +77,13 @@ ht () {
   helm dependency update && helm template -f $1 . | bat
 }
 
+#################
+# Terraform Module Hash Update
+# ###############
+
+thu () {
+
+}
 
 #################
 # Chef Stuff
