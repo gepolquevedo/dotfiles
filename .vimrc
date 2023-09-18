@@ -41,7 +41,7 @@ set t_Co=256
 syntax enable
 
 " change working directory upon buffer change
-set autochdir
+" set autochdir
 
 "Use a line cursor within insert mode and a block cursor everywhere else.
 "
