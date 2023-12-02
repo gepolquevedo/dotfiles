@@ -3,7 +3,7 @@ set expandtab
 set softtabstop=4
 
 " Personal default colorscheme
-colorscheme evening
+colorscheme delek
 
 " Show command options when you press tab
 set wildmenu
