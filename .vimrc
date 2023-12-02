@@ -3,7 +3,7 @@ set expandtab
 set softtabstop=4
 
 " Personal default colorscheme
-colorscheme industry
+colorscheme evening
 
 " Show command options when you press tab
 set wildmenu
@@ -21,8 +21,9 @@ set incsearch
 set hlsearch
 
 " show tabs and trailing spaces as special chars for easier editing
-set listchars=tab:>.,nbsp:_,trail:.
+set listchars=tab:>.,nbsp:_,trail:.,tab:\|\ 
 
+" persist char list settings
 set list
 
 " allow buffer switch with pending changes
@@ -36,6 +37,9 @@ set ignorecase
 
 " display a column at char 80 to encourage line length
 set colorcolumn=80
+
+" display a column hightlight on the cursor location
+set cursorcolumn
 
 set t_Co=256
 syntax enable
