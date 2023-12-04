@@ -42,7 +42,7 @@ set colorcolumn=80
 set cursorcolumn
 
 set t_Co=256
-syntax enable
+syntax on
 
 " change working directory upon buffer change
 " set autochdir
