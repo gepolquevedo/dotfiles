@@ -1,0 +1,10 @@
+import = ["/Users/gene/.config/alacritty/themes/themes/github_dark_high_contrast.toml"]
+
+[font]
+size = 13
+
+[font.normal]
+family = "MesloLGS NF"
+
+[scrolling]
+history = 50000
