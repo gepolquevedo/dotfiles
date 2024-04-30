@@ -29,7 +29,6 @@ set list
 " allow buffer switch with pending changes
 set hidden
 
-set nofoldenable
 set foldmethod=indent
 
 " always ignore case
@@ -84,6 +83,7 @@ Plug 'dense-analysis/ale'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-unimpaired'
 
 call plug#end()
 
