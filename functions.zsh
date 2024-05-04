@@ -47,7 +47,7 @@ asar () {
 
 #Find ip address of EC2 instance given instance name using fzf, and SSH into it
 ceb () {
-  aws ec2 describe-instances | jq -r '.Reservations[].Instances[] | "\(.Tags[] | select(.Key|test("Name")) | .Value) \(.PrivateIpAddress)" ' | fzf | awk '{print $2}' | xargs -o -I{} ssh gquevedo@{}
+  aws ec2 describe-instances | jq -r '.Reservations[].Instances[] | " \(.InstanceId) \(.Tags[] | select(.Key|test("Name")) | .Value) \(.PrivateIpAddress)" ' | fzf | xargs -o aws ssm start-session --target
 }
 
 
