@@ -3,7 +3,8 @@ set expandtab
 set softtabstop=4
 
 " Personal default colorscheme
-colorscheme evening
+set background=light
+autocmd vimenter * ++nested colorscheme solarized8
 
 " Show command options when you press tab
 set wildmenu
@@ -84,6 +85,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
+Plug 'lifepillar/vim-solarized8'
 
 call plug#end()
 
