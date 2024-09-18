@@ -4,7 +4,8 @@ set softtabstop=4
 
 " Personal default colorscheme
 set background=light
-autocmd vimenter * ++nested colorscheme solarized8
+" colorscheme gruvbox
+
 
 " Show command options when you press tab
 set wildmenu
@@ -86,6 +87,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 Plug 'lifepillar/vim-solarized8'
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
