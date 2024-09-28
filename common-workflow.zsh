@@ -14,9 +14,6 @@ setopt INC_APPEND_HISTORY
 # add local PATH folder
 export PATH=${PATH}:${HOME}/.local/bin
 
-# add golang  PATH folder
-export PATH=${PATH}:/usr/local/go/bin
-
 # add SSH keys
 eval $(ssh-agent -s) > /dev/null
 ssh-add ~/.ssh/id_ed25519 > /dev/null 2>&1
