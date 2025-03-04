@@ -31,7 +31,8 @@ set list
 " allow buffer switch with pending changes
 set hidden
 
-set foldmethod=indent
+" TODO: find a less intrusive folding level
+" set foldmethod=indent
 
 " always ignore case
 set ignorecase
@@ -40,7 +41,8 @@ set ignorecase
 set colorcolumn=80
 
 " display a column hightlight on the cursor location
-set cursorcolumn
+" Note: temporarily disabled and use indent guides instead
+" set cursorcolumn
 
 set t_Co=256
 syntax on
@@ -79,7 +81,7 @@ Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', { 'do' : { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'editorconfig/editorconfig-vim'
-Plug 'nathanaelkane/vim-indent-guides'
+Plug 'preservim/vim-indent-guides'
 Plug 'vim-airline/vim-airline'
 Plug 'dense-analysis/ale'
 Plug 'airblade/vim-gitgutter'
@@ -88,6 +90,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 Plug 'lifepillar/vim-solarized8'
 Plug 'morhetz/gruvbox'
+Plug 'Exafunction/codeium'
 
 call plug#end()
 
