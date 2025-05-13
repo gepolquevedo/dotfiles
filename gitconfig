@@ -1,0 +1,31 @@
+[user]
+	email = gene.q@covergenius.com
+	name = Gene Quevedo
+
+[branch]
+    sort = -committerdate
+
+[core]
+    excludesFile = ~/.gitignore
+
+[column]
+    ui = auto
+
+[commit]
+    verbose = true
+
+[diff]
+    algorithm = histogram
+
+[pull]
+    rebase = true
+
+[rebase]
+    autostash = true
+    autosquash = true
+
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
