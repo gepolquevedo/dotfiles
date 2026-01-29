@@ -51,7 +51,7 @@ alias v="vim"
 alias vf="vim ."
 alias downloads="cd ~/Downloads"
 alias kcc="kubectl config current-context"
-alias b="bat"
+alias b="bat -p"
 
 # add krew to PATH
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
