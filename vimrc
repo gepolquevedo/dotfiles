@@ -90,7 +90,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 Plug 'lifepillar/vim-solarized8'
 Plug 'morhetz/gruvbox'
-Plug 'Exafunction/codeium'
+Plug 'Exafunction/windsurf.vim', {'branch': 'main'}
 
 call plug#end()
 
